@@ -47,7 +47,7 @@ async function main() {
 
     translations = {};
     for (let i = 0; i < textItems.length; i+=2) {
-        translations[textItems[i]] = textItems[i+1];
+        translations[textItems[i].textContent] = textItems[i+1].textContent;
     }
 
     console.log(translations);
