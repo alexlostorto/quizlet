@@ -28,7 +28,7 @@ fetchDependencies();
 
 const mutationObserver = new MutationObserver(function(mutations) {
     mutations.forEach(function() {
-        main();
+        // main();
     });
 });
 
@@ -47,7 +47,13 @@ async function main() {
 
     translations = {};
     for (let i = 0; i < textItems.length; i+=2) {
-        translations[textItems[i].textContent] = textItems[i+1].textContent;
+        if ([textItems[i].textContent] in translations) {
+            let value = translations[textItems[i].textContent];
+            value.push(textItems[i+1].textContent);
+            translations[textItems[i].textContent] = value;
+        } else {
+            translations[textItems[i].textContent] = [textItems[i+1].textContent];
+        }
     }
 
     console.log(translations);
