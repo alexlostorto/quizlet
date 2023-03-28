@@ -43,7 +43,7 @@ mutationObserver.observe(document.documentElement, {
 
 async function main() {    
     textItems = document.querySelectorAll('.ProseMirror');
-    if (document.querySelector('.Prose') == null) { return; }
+    if (textItems == null) { return; }
 
     translations = {};
     for (let i = 0; i < textItems.length; i+=2) {
@@ -59,6 +59,7 @@ async function credits() {
     console.clear();
     console.log.apply(console, ["%c Thanks for using my Sparx program! ","color: #fff; background: #8000ff; padding:5px 0;"])
     console.log.apply(console, ["%c Designed and Developed by Alex lo Storto %c\ud83d\ude80 ","color: #fff; background: #8000ff; padding:5px 0;","color: #fff; background: #242424; padding:5px 0 5px 5px;"])
+    main();
 }
 
 main();
