@@ -1,0 +1,5 @@
+{
+    "version": "v1.0.0",
+    "dependencies": {},
+    "contentScript": "https://cdn.jsdelivr.net/gh/alexlostorto/sparx@v1.0.0/console/console.js"
+}

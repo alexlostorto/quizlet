@@ -1,0 +1,43 @@
+{
+    "manifest_version": 3,
+    "name": "Quizlet Buddy",
+    "version": "1.0.0",
+    "description": "Scrapes word-translation pairs",
+
+    "host_permissions": [
+      "*://www.quizlet.com/*",
+      "https://quizlet.com/*"
+    ],
+  
+    "icons": {
+      "128": "logo.png"
+    },
+
+    "action": {
+      "default_icon": {
+        "128": "logo.png"
+      },
+      "default_title": "Quizlet Buddy",
+      "default_popup": "popup.html"
+    },
+    
+    "permissions": [
+      "activeTab",
+      "storage",
+      "downloads"
+    ],
+
+    "content_scripts": [
+      {
+        "matches": ["*://www.quizlet.com/*", "https://quizlet.com/*"],
+        "js": ["contentScript.js"]
+      }
+    ],
+
+    "web_accessible_resources": [{
+      "resources": ["inject.js"],
+      "matches": ["<all_urls>"]
+    }]
+  
+  }
+  
