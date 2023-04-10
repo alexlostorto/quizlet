@@ -70,6 +70,8 @@ async function main() {
         buttonNode.addEventListener('click', () => {
             console.log("CLICKED BUTTON")
 
+            translations = {};
+
             for (let i = 0; i < textItems.length; i+=2) {
                 if ([textItems[i].textContent] in translations) {
                     let value = translations[textItems[i].textContent];
