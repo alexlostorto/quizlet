@@ -1,8 +1,8 @@
 {
-    "version": "v1.0.2",
+    "version": "v1.1.0",
     "dependencies": {
         "js": [],
         "css": []
     },
-    "contentScript": "https://cdn.jsdelivr.net/gh/alexlostorto/quizlet@v1.0.2/console/console.js"
+    "contentScript": "https://cdn.jsdelivr.net/gh/alexlostorto/quizlet@v1.1.0/console/console.js"
 }
