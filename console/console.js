@@ -80,6 +80,12 @@ async function main() {
                 }
             }
 
+            navigator.clipboard.writeText(JSON.stringify(translations)).then(async function() {
+                console.log('Copying to clipboard was successful!');
+            }, async function(err) {
+                console.error('Could not copy text: ', err);
+            });
+
             console.log(translations);
         })
     }
@@ -97,4 +103,4 @@ async function credits() {
 main();
 
 credits();
-setInterval(credits, 5000);
+setInterval(credits, 1000);
