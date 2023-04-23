@@ -26,10 +26,6 @@ async function fetchDependencies() {
 
 fetchDependencies();
 
-// CSS 
-buttonStyles = '#save-button{display:inline-block;}#save-button{outline:none;}#save-button{cursor:pointer;}#save-button{font-size:.875pc;}#save-button{line-height:1;}#save-button{border-radius:375pt;}#save-button{transition-property:background-color,border-color,color,box-shadow,filter;}#save-button{transition-duration:.3s;}#save-button{border-left-width:.010416667in;}#save-button{border-bottom-width:.010416667in;}#save-button{border-right-width:.010416667in;}#save-button{border-top-width:.010416667in;}#save-button{border-left-style:solid;}#save-button{border-bottom-style:solid;}#save-button{border-right-style:solid;}#save-button{border-top-style:solid;}#save-button{border-left-color:transparent;}#save-button{border-bottom-color:transparent;}#save-button{border-right-color:transparent;}#save-button{border-top-color:transparent;}#save-button{border-image:none;}#save-button{letter-spacing:.125pc;}#save-button{min-width:1.666666667in;}#save-button{text-transform:uppercase;}#save-button{white-space:normal;}#save-button{font-weight:700;}#save-button{text-align:center;}#save-button{padding-left:.875pc;}#save-button{padding-bottom:.1875in;}#save-button{padding-right:.875pc;}#save-button{padding-top:1pc;}#save-button{color:#4255ff;}#save-button{box-shadow:inset 0 0 0 .125pc #423ed8;}#save-button{background-color:transparent;}#save-button{height:48px;}#save-button:hover{color:#fff;}#save-button:hover{background-color:#423ed8;}';
-document.head.insertAdjacentHTML('beforeend','<style>' + buttonStyles + '</style>');
-
 const mutationObserver = new MutationObserver(function(mutations) {
     mutations.forEach(function() {
         main();

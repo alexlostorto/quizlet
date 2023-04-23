@@ -17,8 +17,7 @@
       "default_icon": {
         "128": "logo.png"
       },
-      "default_title": "Quizlet Buddy",
-      "default_popup": "popup.html"
+      "default_title": "Quizlet Buddy"
     },
     
     "permissions": [
@@ -35,7 +34,7 @@
     ],
 
     "web_accessible_resources": [{
-      "resources": ["inject.js"],
+      "resources": ["inject.js", "styles.css"],
       "matches": ["<all_urls>"]
     }]
   
