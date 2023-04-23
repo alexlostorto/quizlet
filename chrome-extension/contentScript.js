@@ -1,5 +1,5 @@
 var s = document.createElement('script');
-s.src = chrome.runtime.getURL('console.js');
+s.src = chrome.runtime.getURL('inject.js');
 s.onload = function() {
     this.remove();
 };
