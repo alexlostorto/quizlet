@@ -2,58 +2,45 @@
 
 Welcome to my **Quizlet Buddy**, an extension designed to scrape the word-translation pairs on Quizlet.
 
+> **Note** This program has no connection with Quizlet. Quizlet is owned by Quizlet Inc.
+
 ```js
 // List of programs
 console.js;
 chrome_extension;
 ```
 
-## Table of Contents
+## 📔 Table of Contents
 
 <details>
   <summary>Click to expand</summary>
-  
-- [Features](#features)
-- [Scripts](#scripts)
-  * [Console](#console)
-  * [Chrome Extension](#chrome-extension)
-- [Terms and Conditions](#terms-and-conditions)
+ 
+- [Quick setup](#-quick-setup)
+- [Features](#-features)
+- [Credits](#-credits)
 </details>
 
-## Features
+## ⚡ Install Instructions
+
+1. Go to the **GitHub page** of the Chrome extension you want to install.
+2. Click the green "Code" button and select **"Download ZIP"** to download the extension's source code to your computer.
+3. **Extract** the downloaded ZIP file to a convenient location on your computer, such as your desktop or documents folder.
+4. Open **Google Chrome** on your Windows computer.
+5. Click the three-dot menu icon in the top-right corner of the Chrome window and select **"More tools" > "Extensions"** from the drop-down menu.
+6. In the Extensions tab, toggle on the **"Developer mode"** switch located in the top-right corner of the window.
+7. Click the **"Load unpacked"** button in the top-left corner of the window.
+8. Navigate to the folder where you extracted the extension's source code in step 3, and select it.
+9. Click **"Open"** to install the extension.
+
+> **Note** The extension should now appear in the Extensions tab, and you can use it as you normally would.
+ 
+## ✨ Features
 
 - Scrapes **word-translation** pairs
 - Can be used on **Android** (through Kiwi Browser)
 
-#### Console
+## 📜 Credits
 
-1. This script works in the console.
+Everything is coded by Alex lo Storto
 
-#### Chrome extension
-
-1. An unpacked Chrome extension which utilises chrome's storage API to hold sparx data.
-
-## Terms and Conditions
-
-All code in this repository was developed by Alex lo Storto except where otherwise noted. Copyright (c) 2023, Alex lo Storto. All rights reserved. The code is licensed under the MIT license.
-
-```
-FOR EDUCATIONAL PURPOSES ONLY.
-
-THIS PROGRAM CONTAINS A SCRAPER FUNCTION. THE UNETHICAL DISTRIBUTION OF
-ANSWERS IS NOT PROVIDED BY THIS SOFTWARE AND ANY USERS OF THIS SOFWARE
-SHALL NOT MODIFY IT FOR UNLAWFUL OR UNETHICAL USE OF THE QUIZLET WEBSITE.
-
-THIS IS AN OPEN-SOURCE AND FREE SOFTWARE WHICH DOES NOT INCLUDE PURCHASES
-OF ANY KIND.
-
-ALL COMPLAINTS SHALL BE FORMALLY ADDRESSED AS A GITHUB ISSUE ON THIS
-REPOSITORY.
-
-THIS PROGRAM HAS NO CONNECTION WITH QUIZLET. CHEATING OF ANY KIND IS NOT
-TOLERATED AND WE DO NOT TAKE ANY LIABILITY FOR THE USE OF THIS PROGRAM BY
-ANY USERS. WE DO NOT TAKE ANY LIABILITY FOR ANY DAMAGES INCURRED BY THE USE
-OF THIS SOFWTARE.
-```
-
-If you have any questions, comments, or concerns about licensing please contact us.
+Licensed under the MIT License.
